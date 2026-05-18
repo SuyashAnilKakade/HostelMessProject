@@ -1,0 +1,942 @@
+2026-05-10T12:31:34.080+05:30  WARN 19712 --- [Hostel_Management] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h12m43s718ms262µs).
+2026-05-10T12:33:32.324+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:32.340+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:33.957+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:33:34.101+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:34.104+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:34.123+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:33:38.111+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:38.111+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:38.111+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:38.117+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:38.141+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:33:38.143+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:33:39.434+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:39.551+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:47.690+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:33:47.747+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:36:46.089+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:37:09.513+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:37:09.670+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:37:36.463+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:37:36.463+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:37:36.565+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:37:36.565+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:37:39.269+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:37:39.474+05:30 ERROR 19712 --- [Hostel_Management] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Already requested this room] with root cause
+
+java.lang.RuntimeException: Already requested this room
+	at com.example.Hostel_Management.service.RoomRequestService.requestRoom(RoomRequestService.java:135) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370) ~[spring-tx-7.0.2.jar:7.0.2]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.2.jar:7.0.2]
+	at com.example.Hostel_Management.service.RoomRequestService$$SpringCGLIB$$0.requestRoom(<generated>) ~[classes/:na]
+	at com.example.Hostel_Management.controller.StudentRoomRequestController.requestRoom(StudentRoomRequestController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.proceed(AuthorizationManagerBeforeMethodInterceptor.java:271) ~[spring-security-core-7.0.2.jar:7.0.2]
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.attemptAuthorization(AuthorizationManagerBeforeMethodInterceptor.java:266) ~[spring-security-core-7.0.2.jar:7.0.2]
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:197) ~[spring-security-core-7.0.2.jar:7.0.2]
+	at org.springframework.security.config.annotation.method.configuration.DeferringMethodInterceptor.invoke(DeferringMethodInterceptor.java:44) ~[spring-security-config-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.2.jar:7.0.2]
+	at com.example.Hostel_Management.controller.StudentRoomRequestController$$SpringCGLIB$$0.requestRoom(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at com.example.Hostel_Management.security.JwtFilter.doFilterInternal(JwtFilter.java:157) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-10T12:38:02.762+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:38:02.871+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:39:15.955+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:39:25.061+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:39:25.140+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:40:14.880+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:40:20.091+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:40:26.842+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:40:26.910+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:40:43.791+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:40:44.030+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:40:49.349+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:40:49.409+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:41:17.716+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:41:19.784+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:41:27.360+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:41:27.398+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:41:31.958+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:41:32.027+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:41:37.785+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:41:37.791+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:44:20.687+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:44:21.280+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:45:06.723+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:45:07.216+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:45:11.567+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:45:11.628+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:45:14.524+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:23.500+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:28.473+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:33.483+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:38.468+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:43.487+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:48.484+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:53.484+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:46:58.473+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:03.488+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:08.464+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:13.486+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:18.475+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:23.479+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:28.479+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:33.943+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:38.943+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:43.943+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:48.934+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:53.956+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:47:58.930+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:03.950+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:08.935+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:13.490+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:18.475+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:19.266+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:21.716+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:23.476+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:28.478+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:33.476+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:38.945+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:43.938+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:46.226+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:48:46.226+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:48:46.250+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:48:46.268+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:48:46.274+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:48:46.282+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:48:48.943+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:53.927+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:48:57.567+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=rushi@gmail
+2026-05-10T12:48:59.313+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:03.955+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:08.498+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:11.793+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:11.882+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:21.106+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:21.175+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:25.236+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:25.265+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:31.485+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:31.509+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:49:40.321+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:50:14.538+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:18.708+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:18.709+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:18.714+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:50:18.733+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:18.741+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:18.757+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:50:29.906+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:29.906+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:29.936+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:29.938+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:37.155+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:37.155+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:37.178+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:37.180+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:39.477+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:39.477+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:39.479+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:50:39.497+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:39.499+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:39.509+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:50:57.491+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:59.490+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:59.490+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:59.504+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:50:59.521+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:59.522+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:50:59.531+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:51:18.959+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T12:51:21.529+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T12:51:21.529+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T12:51:21.529+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:51:21.547+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T12:51:21.552+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T12:51:21.579+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:51:30.484+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T12:51:37.155+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:51:37.198+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:51:37.810+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:51:37.859+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:52:19.953+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T12:52:48.211+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T12:52:48.482+05:30 ERROR 19712 --- [Hostel_Management] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Invalid email or password] with root cause
+
+java.lang.RuntimeException: Invalid email or password
+	at com.example.Hostel_Management.service.UserService.login(UserService.java:65) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370) ~[spring-tx-7.0.2.jar:7.0.2]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.2.jar:7.0.2]
+	at com.example.Hostel_Management.service.UserService$$SpringCGLIB$$0.login(<generated>) ~[classes/:na]
+	at com.example.Hostel_Management.controller.AuthController.login(AuthController.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at com.example.Hostel_Management.security.JwtFilter.doFilterInternal(JwtFilter.java:110) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-10T12:53:06.935+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T12:53:46.360+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T12:53:46.360+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T12:53:46.375+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:53:46.433+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T12:53:46.513+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T12:53:46.524+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:54:32.948+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:54:43.323+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:54:44.828+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:54:44.831+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:54:44.834+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:54:44.848+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:54:44.848+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:54:44.865+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:56:56.446+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:56:56.446+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:56:56.464+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:56:56.486+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:56:56.527+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:56:56.680+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:57:19.246+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:19.276+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:26.172+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:31.177+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:39.592+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:39.591+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:40.328+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:41.170+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:48.457+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:53.439+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:57:58.435+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:03.457+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:08.446+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:13.447+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:18.432+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:19.160+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:21.116+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:23.436+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:28.439+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:33.930+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:38.938+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:43.933+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:44.241+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:58:48.939+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:51.821+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:58:51.821+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:58:51.841+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:58:51.858+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:58:51.859+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T12:58:51.871+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T12:58:53.932+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:58:58.934+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:03.922+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:08.948+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:13.919+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:18.920+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:23.927+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:28.917+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:34.935+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:38.435+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:43.444+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:48.466+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:50.132+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:51.878+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:53.431+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T12:59:58.934+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:00.026+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T13:00:00.026+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T13:00:00.027+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T13:00:00.040+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T13:00:00.046+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:00:00.064+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:00:03.921+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:08.934+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:10.434+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sanketbhapkar468@gmail.com
+2026-05-10T13:00:13.939+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:18.931+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:22.642+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:00:23.929+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:24.371+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:00:24.372+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:00:24.378+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:00:24.452+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:00:24.452+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:00:24.461+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:00:28.931+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:33.925+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:37.081+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:00:38.927+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:43.919+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:49.945+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:49.969+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:58.130+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:00:58.173+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:06:38.746+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:06:52.218+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:06:52.828+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:07.328+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:07.504+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:21.695+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:07:21.737+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:07:22.492+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:07:22.492+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:07:22.520+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:07:22.521+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:07:28.839+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:28.876+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:30.388+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:30.406+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:31.527+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:31.557+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.373+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.387+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.519+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.541+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.664+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.692+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.807+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.830+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.930+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:34.955+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:35.105+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:35.129+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:36.937+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:07:36.962+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:09:30.492+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:09:30.517+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:10:48.798+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:10:48.924+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:12:31.764+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:31.821+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:34.129+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:34.129+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:34.155+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:34.189+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:39.787+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:39.814+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:12:59.131+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:12:59.167+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:02.049+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:25.518+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:25.601+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:35.587+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:35.618+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:47.758+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:47.781+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:59.496+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:13:59.524+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:14:22.663+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:14:22.693+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:14:35.472+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:14:35.501+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:15:27.088+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:15:27.114+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:18:08.599+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:18:08.599+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:18:08.695+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:18:08.706+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:18:13.600+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:18:24.277+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:18:24.318+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:24:46.947+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:25:12.889+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:25:12.937+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:27:48.543+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:27:48.596+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:27:56.496+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:28:12.877+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:29:30.130+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:29:30.190+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:30:19.479+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:30:45.945+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:30:50.933+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:30:53.337+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:30:53.337+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:30:53.390+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:30:53.391+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:30:55.927+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:00.379+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:00.386+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:00.391+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:31:00.416+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:00.424+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:31:00.445+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:00.930+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:05.922+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:05.929+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:06.049+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:10.395+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:15.396+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:20.393+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:25.413+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:30.393+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:35.419+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:41.791+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:45.327+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:45.424+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:47.771+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:51.361+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:56.688+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:31:58.539+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:58.658+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:58.696+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:58.715+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:31:58.959+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:31:58.970+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:32:01.055+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:04.986+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=aniket12@gmail.com
+2026-05-10T13:32:05.997+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:11.491+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:15.976+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:20.427+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-7] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:20.739+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:20.856+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:23.431+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:23.554+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:29.861+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:32:30.069+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:33:39.445+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:33:43.072+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:33:43.252+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:33:55.803+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:34:00.899+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:34:00.903+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:34:00.915+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:34:01.019+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-3] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:34:01.158+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:34:01.178+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.controller.StudentMessController   : Student viewing thali menu
+2026-05-10T13:34:03.382+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-9] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:34:13.956+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-2] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:34:14.038+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-6] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:34:19.286+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:34:19.326+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T13:36:37.036+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:36:37.203+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:36:40.687+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-8] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:36:40.687+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-4] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:36:40.737+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:36:40.802+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=sachin23@gmail.com
+2026-05-10T13:38:00.668+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-10] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=akash@gmail.com
+2026-05-10T13:38:00.856+05:30 ERROR 19712 --- [Hostel_Management] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Invalid email or password] with root cause
+
+java.lang.RuntimeException: Invalid email or password
+	at com.example.Hostel_Management.service.UserService.login(UserService.java:65) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370) ~[spring-tx-7.0.2.jar:7.0.2]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.2.jar:7.0.2]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.2.jar:7.0.2]
+	at com.example.Hostel_Management.service.UserService$$SpringCGLIB$$0.login(<generated>) ~[classes/:na]
+	at com.example.Hostel_Management.controller.AuthController.login(AuthController.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.2.jar:7.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at com.example.Hostel_Management.security.JwtFilter.doFilterInternal(JwtFilter.java:110) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.2.jar:7.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-10T13:57:23.694+05:30  WARN 19712 --- [Hostel_Management] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s691ms532µs100ns).
+2026-05-10T14:00:36.945+05:30  WARN 19712 --- [Hostel_Management] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m13s289ms278µs600ns).
+2026-05-10T14:00:50.943+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-5] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T14:00:52.360+05:30  INFO 19712 --- [Hostel_Management] [http-nio-8080-exec-1] c.e.H.security.CustomUserDetailsService  : [CustomUserDetailsService] email=suyashakakade.sit.it@gmail.com
+2026-05-10T18:52:31.867+05:30  INFO 30704 --- [Hostel_Management] [main] c.e.H.HostelManagementApplicationTests   : Starting HostelManagementApplicationTests using Java 21.0.10 with PID 30704 (started by Rushi in C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop)
+2026-05-10T18:52:31.874+05:30  INFO 30704 --- [Hostel_Management] [main] c.e.H.HostelManagementApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T18:52:34.719+05:30  INFO 30704 --- [Hostel_Management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T18:52:34.921+05:30  INFO 30704 --- [Hostel_Management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 10 JPA repository interfaces.
+2026-05-10T18:52:36.668+05:30  INFO 30704 --- [Hostel_Management] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T18:52:36.866+05:30  INFO 30704 --- [Hostel_Management] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-05-10T18:52:38.727+05:30  INFO 30704 --- [Hostel_Management] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T18:52:38.851+05:30  INFO 30704 --- [Hostel_Management] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T18:52:39.296+05:30  INFO 30704 --- [Hostel_Management] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-05-10T18:52:39.300+05:30  INFO 30704 --- [Hostel_Management] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T18:52:39.424+05:30  INFO 30704 --- [Hostel_Management] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T18:52:41.744+05:30  INFO 30704 --- [Hostel_Management] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T18:52:41.907+05:30  INFO 30704 --- [Hostel_Management] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T18:52:42.233+05:30  INFO 30704 --- [Hostel_Management] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T18:52:43.387+05:30  INFO 30704 --- [Hostel_Management] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-05-10T18:52:43.712+05:30  WARN 30704 --- [Hostel_Management] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T18:52:46.073+05:30  INFO 30704 --- [Hostel_Management] [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2026-05-10T18:52:46.140+05:30  INFO 30704 --- [Hostel_Management] [main] c.e.H.HostelManagementApplicationTests   : Started HostelManagementApplicationTests in 15.144 seconds (process running for 19.39)
+2026-05-10T18:52:46.924+05:30  INFO 30704 --- [Hostel_Management] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T18:52:46.933+05:30  INFO 30704 --- [Hostel_Management] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T18:52:46.939+05:30  INFO 30704 --- [Hostel_Management] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T18:53:27.661+05:30  INFO 14820 --- [Hostel_Management] [main] c.e.H.HostelManagementApplication        : Starting HostelManagementApplication using Java 21.0.10 with PID 14820 (C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop\target\classes started by Rushi in C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop)
+2026-05-10T18:53:27.681+05:30  INFO 14820 --- [Hostel_Management] [main] c.e.H.HostelManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T18:53:29.952+05:30  INFO 14820 --- [Hostel_Management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T18:53:30.117+05:30  INFO 14820 --- [Hostel_Management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 10 JPA repository interfaces.
+2026-05-10T18:53:32.135+05:30  INFO 14820 --- [Hostel_Management] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-10T18:53:32.194+05:30  INFO 14820 --- [Hostel_Management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T18:53:32.196+05:30  INFO 14820 --- [Hostel_Management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-05-10T18:53:32.467+05:30  INFO 14820 --- [Hostel_Management] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4542 ms
+2026-05-10T18:53:32.644+05:30 ERROR 14820 --- [Hostel_Management] [main] t.s.DeferredServletContainerInitializers : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter' defined in file [C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop\target\classes\com\example\Hostel_Management\security\JwtFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'customUserDetailsService' defined in file [C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop\target\classes\com\example\Hostel_Management\security\CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in com.example.Hostel_Management.repository.UserRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+2026-05-10T18:53:32.754+05:30  INFO 14820 --- [Hostel_Management] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-05-10T18:53:32.799+05:30  WARN 14820 --- [Hostel_Management] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-05-10T18:53:32.818+05:30  INFO 14820 --- [Hostel_Management] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-10T18:53:32.880+05:30 ERROR 14820 --- [Hostel_Management] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:614) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at com.example.Hostel_Management.HostelManagementApplication.main(HostelManagementApplication.java:14) ~[classes/:na]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150) ~[spring-boot-tomcat-4.0.1.jar:4.0.1]
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110) ~[spring-boot-tomcat-4.0.1.jar:4.0.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:408) ~[spring-boot-tomcat-4.0.1.jar:4.0.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:166) ~[spring-boot-tomcat-4.0.1.jar:4.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtFilter' defined in file [C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop\target\classes\com\example\Hostel_Management\security\JwtFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'customUserDetailsService' defined in file [C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop\target\classes\com\example\Hostel_Management\security\CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in com.example.Hostel_Management.repository.UserRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:231) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:185) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:180) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:165) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:97) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.web.context.servlet.WebApplicationContextInitializer.initialize(WebApplicationContextInitializer.java:53) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.tomcat.servlet.DeferredServletContainerInitializers.onStartup(DeferredServletContainerInitializers.java:55) ~[spring-boot-tomcat-4.0.1.jar:4.0.1]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4416) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:780) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:864) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:435) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131) ~[spring-boot-tomcat-4.0.1.jar:4.0.1]
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService' defined in file [C:\Users\Rushi\Hostel_Management-develop\Hostel_Management-develop\target\classes\com\example\Hostel_Management\security\CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in com.example.Hostel_Management.repository.UserRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 53 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.Hostel_Management.repository.UserRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1712) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1461) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 67 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:356) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 81 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 93 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 105 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 119 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.util.Assert.state(Assert.java:102) ~[spring-core-7.0.2.jar:7.0.2]
+	at org.springframework.boot.jdbc.autoconfigure.DataSourceProperties.findDriverClassName(DataSourceProperties.java:187) ~[spring-boot-jdbc-4.0.1.jar:4.0.1]
+	at org.springframework.boot.jdbc.autoconfigure.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:177) ~[spring-boot-jdbc-4.0.1.jar:4.0.1]
+	at org.springframework.boot.jdbc.autoconfigure.PropertiesJdbcConnectionDetails.getDriverClassName(PropertiesJdbcConnectionDetails.java:51) ~[spring-boot-jdbc-4.0.1.jar:4.0.1]
+	at org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:63) ~[spring-boot-jdbc-4.0.1.jar:4.0.1]
+	at org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:128) ~[spring-boot-jdbc-4.0.1.jar:4.0.1]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 122 common frames omitted
+
