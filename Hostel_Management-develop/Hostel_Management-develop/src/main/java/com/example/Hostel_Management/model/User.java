@@ -1,11 +1,13 @@
 package com.example.Hostel_Management.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
 @Table(name = "USERS")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -22,7 +24,7 @@ public class User {
     @Column(name = "PASSWORD", nullable = false)
     private String password;
 
-    // ✅ IMPORTANT: ALWAYS STORE ROLE_ADMIN / ROLE_STUDENT
+    // Always ROLE_ADMIN / ROLE_STUDENT
     @Column(name = "ROLE", nullable = false)
     private String role;
 
@@ -31,11 +33,13 @@ public class User {
 
     // ================= STUDENT ALLOCATION =================
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "HOSTEL_ID")
+    @JsonIgnoreProperties({"admin"})
     private Hostel hostel;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "ROOM_ID")
+    @JsonIgnoreProperties({"hostel"})
     private Room room;
 }

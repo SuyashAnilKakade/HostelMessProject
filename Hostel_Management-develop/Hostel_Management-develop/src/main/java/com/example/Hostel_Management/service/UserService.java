@@ -41,16 +41,31 @@ public class UserService {
             throw new RuntimeException("Email already exists");
         }
 
-        // ✅ Normalize role to match Spring Security format
-        String role = user.getRole().toUpperCase();
+        // Normalize role safely
+        String role = user.getRole();
 
+        if (role == null || role.trim().isEmpty()) {
+            throw new RuntimeException("Role is required");
+        }
+
+        role = role.trim().toUpperCase();
+
+        // Convert ADMIN -> ROLE_ADMIN
+        // Convert STUDENT -> ROLE_STUDENT
         if (!role.startsWith("ROLE_")) {
             role = "ROLE_" + role;
         }
 
-        user.setRole(role);
+        // Allow only valid roles
+        if (!role.equals("ROLE_ADMIN") && !role.equals("ROLE_STUDENT")) {
+            throw new RuntimeException("Invalid role: " + role);
+        }
 
+        user.setRole(role);
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+
+        log.info("Saving user with role = {}", user.getRole());
+
         return userRepository.save(user);
     }
 
@@ -61,7 +76,8 @@ public class UserService {
         try {
             authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(
-                            user.getEmail(), user.getPassword()
+                            user.getEmail(),
+                            user.getPassword()
                     )
             );
         } catch (BadCredentialsException ex) {
@@ -71,16 +87,30 @@ public class UserService {
         User dbUser = userRepository.findByEmail(user.getEmail())
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
-        // Generate JWT token
+        String role = dbUser.getRole();
+
+        // Safety normalization for old DB records
+        if (role != null) {
+            role = role.trim().toUpperCase();
+            if (!role.startsWith("ROLE_")) {
+                role = "ROLE_" + role;
+            }
+        } else {
+            throw new RuntimeException("User role is missing");
+        }
+
+        // Generate JWT token with normalized role
         String token = jwtUtil.generateToken(
                 dbUser.getEmail(),
-                dbUser.getRole(),
+                role,
                 dbUser.getName()
         );
 
         Map<String, Object> response = new HashMap<>();
         response.put("token", token);
-        response.put("role", dbUser.getRole());
+        response.put("role", role);
+        response.put("name", dbUser.getName());
+        response.put("email", dbUser.getEmail());
 
         return response;
     }

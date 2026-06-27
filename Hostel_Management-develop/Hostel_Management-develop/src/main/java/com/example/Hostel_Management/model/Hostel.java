@@ -1,5 +1,6 @@
 package com.example.Hostel_Management.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -28,13 +29,9 @@ public class Hostel {
 
     private String image;
 
-    // ✅ LINK HOSTEL WITH ADMIN
-    @ManyToOne
+    // ✅ While sending hostel JSON, don't send nested hostel/room/password again from admin
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "admin_id")
+    @JsonIgnoreProperties({"password", "hostel", "room"})
     private User admin;
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
 }

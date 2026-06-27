@@ -34,20 +34,28 @@ public class HostelController {
             @RequestParam String name,
             @RequestParam String location,
             @RequestParam int totalRooms,
-            @RequestParam int allottedRooms,
-            @RequestParam int availableRooms,
             @RequestParam(required = false) String description,
             @RequestParam(required = false) MultipartFile image,
             Authentication authentication
     ) throws Exception {
 
+        System.out.println("========== CREATE HOSTEL API HIT ==========");
+        System.out.println("Authentication object = " + authentication);
+
+        if (authentication == null) {
+            throw new RuntimeException("Authentication is null");
+        }
+
+        System.out.println("Logged in email from auth = " + authentication.getName());
+
         User admin = userRepository.findByEmail(authentication.getName())
-                .orElseThrow(() -> new RuntimeException("Admin not found"));
+                .orElseThrow(() -> new RuntimeException("Admin not found: " + authentication.getName()));
+
+        System.out.println("Admin found in DB = " + admin.getEmail() + " | role = " + admin.getRole());
 
         String imagePath = null;
 
         if (image != null && !image.isEmpty()) {
-
             String uploadDir = "uploads";
             Files.createDirectories(Paths.get(uploadDir));
 
@@ -55,7 +63,6 @@ public class HostelController {
             Path filePath = Paths.get(uploadDir, fileName);
 
             Files.write(filePath, image.getBytes());
-
             imagePath = "/uploads/" + fileName;
         }
 
@@ -63,14 +70,20 @@ public class HostelController {
                 .name(name)
                 .location(location)
                 .totalRooms(totalRooms)
-                .allottedRooms(allottedRooms)
-                .availableRooms(availableRooms)
+                .allottedRooms(0)
+                .availableRooms(totalRooms)
                 .description(description)
                 .image(imagePath)
                 .admin(admin)
                 .build();
 
-        return hostelService.createHostel(hostel);
+        System.out.println("Saving hostel = " + hostel.getName());
+
+        Hostel saved = hostelService.createHostel(hostel);
+
+        System.out.println("Hostel saved successfully with id = " + saved.getId());
+
+        return saved;
     }
 
     // ================= GET HOSTELS =================
@@ -117,7 +130,6 @@ public class HostelController {
 
         Hostel hostel = hostelService.getHostelById(hostelId, admin);
 
-        // update fields
         hostel.setName(name);
         hostel.setLocation(location);
         hostel.setTotalRooms(totalRooms);
@@ -125,9 +137,7 @@ public class HostelController {
         hostel.setAvailableRooms(availableRooms);
         hostel.setDescription(description);
 
-        // optional image update
         if (image != null && !image.isEmpty()) {
-
             String uploadDir = "uploads";
             Files.createDirectories(Paths.get(uploadDir));
 
@@ -135,7 +145,6 @@ public class HostelController {
             Path filePath = Paths.get(uploadDir, fileName);
 
             Files.write(filePath, image.getBytes());
-
             hostel.setImage("/uploads/" + fileName);
         }
 

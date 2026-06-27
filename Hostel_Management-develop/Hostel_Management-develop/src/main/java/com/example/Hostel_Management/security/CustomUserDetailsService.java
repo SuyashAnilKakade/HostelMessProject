@@ -25,20 +25,28 @@ public class CustomUserDetailsService implements UserDetailsService {
     public UserDetails loadUserByUsername(String email)
             throws UsernameNotFoundException {
 
-        log.info("[CustomUserDetailsService] email={}", email);
+        log.info("[CustomUserDetailsService] Loading user: {}", email);
 
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() ->
-                        new UsernameNotFoundException("User not found")
+                        new UsernameNotFoundException("User not found with email: " + email)
                 );
 
-        if (user.getRole() == null) {
+        String role = user.getRole();
+
+        if (role == null || role.trim().isEmpty()) {
             throw new RuntimeException("User role is not assigned");
         }
 
-        String role = user.getRole().toUpperCase();
+        // Normalize role from DB
+        role = role.trim().toUpperCase();
 
-        log.info("Granted Authority: {}", role);
+        // Convert ADMIN -> ROLE_ADMIN if old data exists
+        if (!role.startsWith("ROLE_")) {
+            role = "ROLE_" + role;
+        }
+
+        log.info("[CustomUserDetailsService] User role = {}", role);
 
         return new org.springframework.security.core.userdetails.User(
                 user.getEmail(),

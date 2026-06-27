@@ -2,6 +2,7 @@ package com.example.Hostel_Management.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
@@ -31,7 +32,7 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-    // ================= AUTH MANAGER =================
+    // ================= AUTHENTICATION MANAGER =================
     @Bean
     public AuthenticationManager authenticationManager(
             AuthenticationConfiguration config
@@ -51,37 +52,50 @@ public class SecurityConfig {
                 )
                 .authorizeHttpRequests(auth -> auth
 
-                        // ================= PUBLIC APIs =================
+                        // VERY IMPORTANT: allow browser preflight request
+                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+
+                        // PUBLIC APIs
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/uploads/**").permitAll()
 
-                        // ================= ADMIN ONLY =================
-                        .requestMatchers("/api/admin/**").hasRole("ADMIN")
+                        // ADMIN APIs
+                        .requestMatchers("/api/admin/**").hasAuthority("ROLE_ADMIN")
 
-                        // ================= STUDENT ONLY =================
-                        .requestMatchers("/api/student/**").hasRole("STUDENT")
+                        // STUDENT APIs
+                        .requestMatchers("/api/student/**").hasAuthority("ROLE_STUDENT")
 
-                        // ================= SHARED =================
+                        // SHARED APIs
                         .requestMatchers("/api/messmenu/**")
-                        .hasAnyRole("ADMIN", "STUDENT")
+                        .hasAnyAuthority("ROLE_ADMIN", "ROLE_STUDENT")
 
-                        // ================= ANY OTHER =================
+                        // ALL OTHER REQUESTS
                         .anyRequest().authenticated()
-                );
-
-        http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+                )
+                .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }
 
-    // ================= CORS CONFIG =================
+    // ================= CORS CONFIGURATION =================
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
 
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("http://localhost:5173"));
+
+        // frontend URL
+        config.setAllowedOriginPatterns(List.of("http://localhost:5173"));
+
+        // allowed methods
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+
+        // IMPORTANT: allow all headers (helps multipart + Authorization)
         config.setAllowedHeaders(List.of("*"));
+
+        // exposed headers
+        config.setExposedHeaders(List.of("Authorization"));
+
+        // credentials
         config.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source =

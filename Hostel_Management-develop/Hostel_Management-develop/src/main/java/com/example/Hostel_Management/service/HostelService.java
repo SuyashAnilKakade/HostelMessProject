@@ -18,7 +18,8 @@ public class HostelService {
 
     public HostelService(
             HostelRepository hostelRepository,
-            RoomRequestRepository roomRequestRepository) {
+            RoomRequestRepository roomRequestRepository
+    ) {
         this.hostelRepository = hostelRepository;
         this.roomRequestRepository = roomRequestRepository;
     }
@@ -42,6 +43,7 @@ public class HostelService {
         Hostel hostel = hostelRepository.findByIdAndAdmin(hostelId, admin)
                 .orElseThrow(() ->
                         new RuntimeException("Hostel not found or unauthorized"));
+
         hostelRepository.delete(hostel);
     }
 
@@ -54,7 +56,7 @@ public class HostelService {
                         RoomRequest.Status.APPROVED
                 );
 
-        // ✅ If approved → show ONLY allocated hostel(s)
+        // If room approved, show only allocated hostel
         if (!approvedRequests.isEmpty()) {
             return approvedRequests.stream()
                     .map(RoomRequest::getHostel)
@@ -62,7 +64,7 @@ public class HostelService {
                     .collect(Collectors.toList());
         }
 
-        // ✅ Otherwise → show all hostels
+        // otherwise show all hostels
         return hostelRepository.findAll();
     }
 }

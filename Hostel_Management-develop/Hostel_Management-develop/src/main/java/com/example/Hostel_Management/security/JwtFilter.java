@@ -4,6 +4,7 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -34,18 +35,32 @@ public class JwtFilter extends OncePerRequestFilter {
     ) throws ServletException, IOException {
 
         String path = request.getServletPath();
+        String method = request.getMethod();
 
-        // ✅ Skip public endpoints
+        System.out.println("\n========== JWT FILTER ==========");
+        System.out.println("Request Path   : " + path);
+        System.out.println("Request Method : " + method);
+
+        // allow OPTIONS
+        if (HttpMethod.OPTIONS.matches(method)) {
+            System.out.println("OPTIONS request allowed");
+            filterChain.doFilter(request, response);
+            return;
+        }
+
+        // public endpoints
         if (path.startsWith("/api/auth") || path.startsWith("/uploads")) {
+            System.out.println("Public endpoint, skipping JWT");
             filterChain.doFilter(request, response);
             return;
         }
 
         String authHeader = request.getHeader("Authorization");
+        System.out.println("Authorization header = " + authHeader);
 
-        // ❌ No token = block request
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
-            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+            System.out.println("No Bearer token found");
+            filterChain.doFilter(request, response);
             return;
         }
 
@@ -53,6 +68,10 @@ public class JwtFilter extends OncePerRequestFilter {
 
         try {
             String email = jwtUtil.extractEmail(token);
+            String role = jwtUtil.extractRole(token);
+
+            System.out.println("Token email = " + email);
+            System.out.println("Token role  = " + role);
 
             if (email != null &&
                     SecurityContextHolder.getContext().getAuthentication() == null) {
@@ -60,9 +79,10 @@ public class JwtFilter extends OncePerRequestFilter {
                 UserDetails userDetails =
                         userDetailsService.loadUserByUsername(email);
 
-                // ✅ validate token
-                if (jwtUtil.validateToken(token, userDetails)) {
+                System.out.println("UserDetails username = " + userDetails.getUsername());
+                System.out.println("UserDetails authorities = " + userDetails.getAuthorities());
 
+                if (jwtUtil.validateToken(token, userDetails)) {
                     UsernamePasswordAuthenticationToken authentication =
                             new UsernamePasswordAuthenticationToken(
                                     userDetails,
@@ -71,18 +91,21 @@ public class JwtFilter extends OncePerRequestFilter {
                             );
 
                     authentication.setDetails(
-                            new WebAuthenticationDetailsSource()
-                                    .buildDetails(request)
+                            new WebAuthenticationDetailsSource().buildDetails(request)
                     );
 
-                    SecurityContextHolder.getContext()
-                            .setAuthentication(authentication);
+                    SecurityContextHolder.getContext().setAuthentication(authentication);
+
+                    System.out.println("Authentication set successfully");
+                } else {
+                    System.out.println("Token validation failed");
                 }
             }
 
         } catch (Exception e) {
-            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-            return;
+            System.out.println("JWT FILTER ERROR = " + e.getMessage());
+            e.printStackTrace();
+            SecurityContextHolder.clearContext();
         }
 
         filterChain.doFilter(request, response);
